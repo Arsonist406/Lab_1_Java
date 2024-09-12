@@ -5,9 +5,9 @@ import java.util.Scanner;
  */
 public class Program {
     /**
-     * Головна функція програми
+     * Головна функція програми.
      */
-    public static void main() {
+    public static void main(String[] args) {
         int N = setN();
         task(N);
     }
@@ -68,9 +68,9 @@ public class Program {
     }
 
     /**
-     * Перевіряє чи дане число Люка відповідає умові.
+     * Перевіряє чи дане число Люка відповідає умові завдання.
      * @param value значення яке треба перевірити.
-     * @return true якщо число відповідає умові; false якщо число не відповідає умові.
+     * @return true якщо число відповідає умові завдання; false якщо число не відповідає умові завдання.
      */
     public static boolean isForm(long value) {
         double sqrt = Math.sqrt(value + 1);
